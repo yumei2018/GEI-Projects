@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	box-sizing:border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif, Verdana;
+	font-size: 0.9em;
+	background-color: #f0f0f0;
+	margin: 0;
+	padding: 0;
+	color: #444;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+	padding: 0px;
+
+	}
+
+a img {
+	border: none;
+}
+
+.attention {
+	color: #cf102d;
+	font-weight:bold;
+}
+
+a:link {
+	color: #42413C;
+	text-decoration: underline;
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+
+.container {
+	width: 986px;
+	background-color: #FFF;
+	margin: 0 auto;
+}
+
+
+.header {
+	background-color: #13648f;
+	height: 100px;
+}
+
+/* ~~ This is the layout information. */
+
+.content {
+	padding: 30px ;
+}
+
+/* ~~ The footer ~~ */
+.footer {
+	padding: 10px;
+	background-color: #9bae89;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.right {
+	float: right;
+	margin-left: 8px;
+
+
+}
+.left {
+	float: left;
+	margin-right: 20px;
+	}
+
+.hidden {
+	display:none!important;
+	}
+
+.container-sm {
+	display:                 flex;
+  	display:                 -webkit-flex; /* Safari */
+  	flex-wrap:               wrap;
+  	-webkit-flex-wrap:       wrap;         /* Safari */
+  	justify-content:         center;
+  	-webkit-justify-content: center;
+	}
+
+
+.clear
+,.clear-r {
+	clear:right;
+}
+.clear
+,.clear-l {
+	clear:left;
+}
+
+.box {
+	width:400px;
+	background-color: #cccccc;
+	padding: 5px 10px 5px 10px;
+	text-align:center;
+}
+
+.callout {
+	background-color: #CCC;
+	padding: 20px;
+}
+
+/* ~~ menu ~~ */
+.menu {
+    height:10px;
+	float:right;
+  }
+
+  .menu,.actionmenu~ul {
+    margin:0;
+    padding:0;
+  }
+
+  .menu > li {
+    position:relative;
+	list-style: none;
+  }
+
+  .actionmenu:before {
+    display:inline-block;
+    content:". . .";
+    padding:5px;
+    border-radius:2px;
+    cursor:pointer;
+    color:blue;
+  }
+
+  .actionmenu:hover:before {
+    color:#fbae34;
+  }
+
+  .actionmenu~ul {
+    position:absolute;
+    border:1px solid #ddd;
+    background-color:#f9f9f9;
+    z-index:1;
+    list-style: none;
+    top:0;
+    left:35px;
+  }
+
+  .actionmenu~ul li a {
+    padding:3px;
+    width:128px;
+    display:block;
+  }
+/* ~~ end menu ~~ */
+
+.inline {
+  display:inline-block;
+  vertical-align: top;
+}
+
+.required:before {
+  color: red;
+  content: "*";
+  margin-right: 5px;
+}
+
+a.btn {
+  text-decoration: none;
+  color:inherit;
+}
+

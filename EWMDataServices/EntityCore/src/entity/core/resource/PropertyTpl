@@ -1,0 +1,7 @@
+
+  /**
+   *
+   */
+  @EntityColumn(name="[COLUMNNAME]"[IDANNOT])
+  private [TYPENAME] [PROPNAME];
+

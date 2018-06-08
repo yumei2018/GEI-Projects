@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+  <!-- Initialization for data source -->
+  <bean id="EwmAdmDataSource" class="oracle.ucp.jdbc.PoolDataSourceImpl">
+      <property name="connectionFactoryClassName" value="oracle.jdbc.pool.OracleDataSource"/>
+      <property name="URL" value="${ewm_adm.url}"/>
+      <property name="user" value="${ewm_adm.username}"/>
+      <property name="password" value="${ewm_adm.password}"/>
+      <property name="maxPoolSize" value="100"/>
+      <property name="initialPoolSize" value="1"/>
+      <property name="inactiveConnectionTimeout" value="10" />
+      <property name="validateConnectionOnBorrow" value="true" />
+      <property name="abandonedConnectionTimeout" value="10" />
+      <property name="connectionWaitTimeout" value="120" />
+  </bean>
+</beans>

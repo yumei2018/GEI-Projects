@@ -1,0 +1,229 @@
+/*
+ * The MIT License
+ *
+ * Copyright 2014 hdunsford.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+package gov.ca.water.shapelite.toolbox;
+
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+
+/**
+ *
+ * @author Harold A. Dunsford Jr. Ph.D.
+ */
+public abstract class FileParameterPanelBase extends ParameterPanel {
+
+  private gov.ca.water.shapelite.toolbox.FileInputPanel fileInputPanel1;
+  private javax.swing.JLabel labelStatus;
+
+  /**
+   * Creates new form InputFileParameterPanel.
+   */
+  public FileParameterPanelBase() {
+    initComponents();
+    this.fileInputPanel1.addClickListener(new ClickEvent.Listener() {
+      @Override
+      public void clicked(ClickEvent e) {
+        showHelp();
+      }
+    });
+    this.fileInputPanel1.addFilenameChangedListener(new FilenameChangedListener() {
+
+      @Override
+      public void filenameChanged(FileEvent e) {
+        updateParameter();
+      }
+    });
+    MouseListener clickListener = new MouseAdapter() {
+
+      @Override
+      public void mousePressed(MouseEvent e) {
+        showHelp();
+      }
+    };
+    labelStatus.addMouseListener(clickListener);
+    this.addMouseListener(clickListener);
+
+  }
+
+  /**
+   * This method is called if the filename has been changed.
+   */
+  protected void updateParameter() {
+    if (getParameter() == null) {
+      return;
+    }
+    getParameter().setParameterText(fileInputPanel1.getFilename());
+    updateStatus();
+    setToolTip(getParameter().getValidationMessage());
+  }
+
+  protected void updateStatus() {
+    switch (getParameter().getStatus()) {
+      case Good:
+        labelStatus.setIcon(StatusIcon.getGood());
+        break;
+      case Warning:
+        labelStatus.setIcon(StatusIcon.getWarning());
+        break;
+      case Error:
+        labelStatus.setIcon(StatusIcon.getError());
+        break;
+    }
+    labelStatus.repaint();
+  }
+
+  protected void setToolTip(String text) {
+    this.setToolTipText(text);
+    fileInputPanel1.setToolTipText(text);
+    labelStatus.setToolTipText(text);
+    this.setToolTipText(text);
+  }
+
+  /**
+   * Gets the title in the border around the filename.
+   *
+   * @return
+   */
+  public String getTitle() {
+    if (fileInputPanel1 != null) {
+      return fileInputPanel1.getTitle();
+    }
+    return null;
+  }
+
+  /**
+   * Sets the title in the border around the filename.
+   *
+   * @param title
+   */
+  public void setTitle(String title) {
+    if (fileInputPanel1 != null) {
+      fileInputPanel1.setTitle(title);
+    }
+  }
+
+  /**
+   * Gets the filename value in the text view
+   *
+   * @return
+   */
+  public String getValue() {
+    if (fileInputPanel1 != null) {
+      return fileInputPanel1.getFilename();
+    }
+    return null;
+  }
+
+  /**
+   * Sets the filename value in the text view
+   *
+   * @param value
+   */
+  public void setValue(String value) {
+    if (fileInputPanel1 != null) {
+      fileInputPanel1.setFilename(value);
+    }
+  }
+
+  public String getFileTypeDesc() {
+    if (fileInputPanel1 != null) {
+      return fileInputPanel1.getFileTypeDesc();
+    }
+    return null;
+  }
+
+  public void setFileTypeDesc(String desc) {
+    if (fileInputPanel1 != null) {
+      fileInputPanel1.setFileTypeDesc(desc);
+    }
+  }
+
+  public void setFolders() {
+    if (fileInputPanel1 != null) {
+      fileInputPanel1.setFileMode(FileInputPanel.DIRECTORIES_ONLY);
+    }
+  }
+
+  public void setOutput() {
+    if (fileInputPanel1 != null) {
+      fileInputPanel1.setOpenMode(FileInputPanel.SAVE);
+    }
+
+  }
+
+  public String getExtension() {
+    if (fileInputPanel1 != null) {
+      return fileInputPanel1.getExtension();
+    }
+    return null;
+  }
+
+  public void setExtension(String extension) {
+    if (fileInputPanel1 != null) {
+      fileInputPanel1.setExtension(extension);
+    }
+  }
+
+  /**
+   * This method is called from within the constructor to initialize the form.
+   * WARNING: Do NOT modify this code. The content of this method is always
+   * regenerated by the Form Editor.
+   */
+  // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+  private void initComponents() {
+
+    labelStatus = new javax.swing.JLabel();
+    fileInputPanel1 = new gov.ca.water.shapelite.toolbox.FileInputPanel();
+
+    setMaximumSize(new java.awt.Dimension(32767, 48));
+    setMinimumSize(new java.awt.Dimension(200, 0));
+    setName(""); // NOI18N
+
+    labelStatus.setIcon(new javax.swing.ImageIcon(getClass().getResource(
+        "/gov/ca/water/shapelite/toolbox/resources/StatusGood.png")));
+
+    javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
+    this.setLayout(layout);
+    layout.setHorizontalGroup(
+        layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        .addGroup(layout.createSequentialGroup()
+            .addComponent(labelStatus, javax.swing.GroupLayout.PREFERRED_SIZE,
+                46, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+            .addComponent(fileInputPanel1, javax.swing.GroupLayout.DEFAULT_SIZE,
+                410, Short.MAX_VALUE))
+    );
+    layout.setVerticalGroup(
+        layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        .addComponent(labelStatus, javax.swing.GroupLayout.DEFAULT_SIZE,
+            javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        .addGroup(layout.createSequentialGroup()
+            .addGap(0, 0, Short.MAX_VALUE)
+            .addComponent(fileInputPanel1, javax.swing.GroupLayout.PREFERRED_SIZE,
+                javax.swing.GroupLayout.DEFAULT_SIZE,
+                javax.swing.GroupLayout.PREFERRED_SIZE))
+    );
+  }// </editor-fold>//GEN-END:initComponents
+
+}

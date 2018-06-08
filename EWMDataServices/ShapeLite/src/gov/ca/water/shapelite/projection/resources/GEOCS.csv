@@ -1,0 +1,607 @@
+GEO,EPSG
+TWD97,3822
+IGRS,3887
+MOLDREF99,4000
+RGRDC 2005,4039
+SREF98,4073
+REGCAN95,4079
+WGS 84 (geocentric),4328
+ITRF88 (geocentric),4330
+ITRF89 (geocentric),4331
+ITRF90 (geocentric),4332
+ITRF91 (geocentric),4333
+ITRF92 (geocentric),4334
+ITRF93 (geocentric),4335
+ITRF94 (geocentric),4336
+ITRF96 (geocentric),4337
+ITRF97 (geocentric),4338
+Australian Antarctic (geocentric),4340
+EST97 (geocentric),4342
+CHTRF95 (geocentric),4344
+ETRS89 (geocentric),4346
+GDA94 (geocentric),4348
+Hartebeesthoek94 (geocentric),4350
+IRENET95 (geocentric),4352
+JGD2000 (geocentric),4354
+LKS94 (ETRS89) (geocentric),4356
+Moznet (geocentric),4358
+NAD83(CSRS) (geocentric),4360
+NAD83(HARN) (geocentric),4362
+NZGD2000 (geocentric),4364
+POSGAR 98 (geocentric),4366
+REGVEN (geocentric),4368
+RGF93 (geocentric),4370
+RGFG95 (geocentric),4372
+RGR92 (geocentric),4374
+SIRGAS (geocentric),4376
+SWEREF99 (geocentric),4378
+Yemen NGN96 (geocentric),4380
+RGNC 1991 (geocentric),4382
+RRAF 1991 (geocentric),4384
+ITRF2000 (geocentric),4385
+ISN93 (geocentric),4387
+LKS92 (geocentric),4389
+RGSPM06,4465
+RGM04,4468
+Cadastre 1997,4473
+China Geodetic Coordinate System 2000,4479
+Mexican Datum of 1993,4481
+RRAF 1991,4556
+Slovenia 1996,4882
+RSRGD2000,4884
+BDA2000,4886
+HTRS96,4888
+WGS 66,4890
+NAD83(NSRS2007),4892
+JAD2001,4894
+ITRF2005,4896
+DGN95,4897
+LGD2006,4899
+RGNC91-93,4906
+GR96,4908
+ITRF88,4910
+ITRF89,4911
+ITRF90,4912
+ITRF91,4913
+ITRF92,4914
+ITRF93,4915
+ITRF94,4916
+ITRF96,4917
+ITRF97,4918
+ITRF2000,4919
+GDM2000,4920
+PZ-90,4922
+Mauritania 1999,4924
+Korea 2000,4926
+POSGAR 94,4928
+Australian Antarctic,4930
+CHTRF95,4932
+EST97,4934
+ETRS89,4936
+GDA94,4938
+Hartebeesthoek94,4940
+IRENET95,4942
+ISN93,4944
+JGD2000,4946
+LKS92,4948
+LKS94,4950
+Moznet,4952
+NAD83(CSRS),4954
+NAD83(HARN),4956
+NZGD2000,4958
+POSGAR 98,4960
+REGVEN,4962
+RGF93,4964
+RGFG95,4966
+RGNC 1991,4968
+RGR92,4970
+RRAF 1991,4972
+SIRGAS 1995,4974
+SWEREF99,4976
+WGS 84,4978
+Yemen NGN96,4980
+IGM95,4982
+WGS 72,4984
+WGS 72BE,4986
+SIRGAS 2000,4988
+Lao 1993,4990
+Lao 1997,4992
+PRS92,4994
+MAGNA-SIRGAS,4996
+RGPF,4998
+PTRA08,5011
+GDBD2009,5244
+TUREF,5250
+DRUKREF 03,5262
+ISN2004,5322
+ITRF2008,5332
+POSGAR 2007,5341
+MARGEN,5352
+SIRGAS-Chile,5358
+CR05,5363
+MACARIO SOLIS,5368
+Peru96,5369
+SIRGAS-ROU98,5379
+SIRGAS_ES2007.8,5391
+RGAF09,5487
+PNG94,5544
+Ukraine 2000,5558
+FEH2010,5591
+DB_REF,5828
+HD1909,3819
+TWD67,3821
+TWD97,3824
+IGRS,3889
+MGI 1901,3906
+Unknown datum based upon the Airy 1830 ellipsoid,4001
+Unknown datum based upon the Airy Modified 1849 ellipsoid,4002
+Unknown datum based upon the Australian National Spheroid,4003
+Unknown datum based upon the Bessel 1841 ellipsoid,4004
+Unknown datum based upon the Bessel Modified ellipsoid,4005
+Unknown datum based upon the Bessel Namibia ellipsoid,4006
+Unknown datum based upon the Clarke 1858 ellipsoid,4007
+Unknown datum based upon the Clarke 1866 ellipsoid,4008
+Unknown datum based upon the Clarke 1866 Michigan ellipsoid,4009
+Unknown datum based upon the Clarke 1880 (Benoit) ellipsoid,4010
+Unknown datum based upon the Clarke 1880 (IGN) ellipsoid,4011
+Unknown datum based upon the Clarke 1880 (RGS) ellipsoid,4012
+Unknown datum based upon the Clarke 1880 (Arc) ellipsoid,4013
+Unknown datum based upon the Clarke 1880 (SGA 1922) ellipsoid,4014
+Unknown datum based upon the Everest 1830 (1937 Adjustment) ellipsoid,4015
+Unknown datum based upon the Everest 1830 (1967 Definition) ellipsoid,4016
+Unknown datum based upon the Everest 1830 Modified ellipsoid,4018
+Unknown datum based upon the GRS 1980 ellipsoid,4019
+Unknown datum based upon the Helmert 1906 ellipsoid,4020
+Unknown datum based upon the Indonesian National Spheroid,4021
+Unknown datum based upon the International 1924 ellipsoid,4022
+MOLDREF99,4023
+Unknown datum based upon the Krassowsky 1940 ellipsoid,4024
+Unknown datum based upon the NWL 9D ellipsoid,4025
+Unknown datum based upon the Plessis 1817 ellipsoid,4027
+Unknown datum based upon the Struve 1860 ellipsoid,4028
+Unknown datum based upon the War Office ellipsoid,4029
+Unknown datum based upon the WGS 84 ellipsoid,4030
+Unknown datum based upon the GEM 10C ellipsoid,4031
+Unknown datum based upon the OSU86F ellipsoid,4032
+Unknown datum based upon the OSU91A ellipsoid,4033
+Unknown datum based upon the Clarke 1880 ellipsoid,4034
+Unknown datum based upon the Authalic Sphere,4035
+Unknown datum based upon the GRS 1967 ellipsoid,4036
+Unknown datum based upon the Average Terrestrial System 1977 ellipsoid,4041
+Unknown datum based upon the Everest (1830 Definition) ellipsoid,4042
+Unknown datum based upon the WGS 72 ellipsoid,4043
+Unknown datum based upon the Everest 1830 (1962 Definition) ellipsoid,4044
+Unknown datum based upon the Everest 1830 (1975 Definition) ellipsoid,4045
+RGRDC 2005,4046
+Unspecified datum based upon the GRS 1980 Authalic Sphere,4047
+Unspecified datum based upon the Clarke 1866 Authalic Sphere,4052
+Unspecified datum based upon the International 1924 Authalic Sphere,4053
+Unspecified datum based upon the Hughes 1980 ellipsoid,4054
+Popular Visualisation CRS,4055
+SREF98,4075
+REGCAN95,4081
+Greek,4120
+GGRS87,4121
+ATS77,4122
+KKJ,4123
+RT90,4124
+Samboja,4125
+LKS94 (ETRS89),4126
+Tete,4127
+Madzansua,4128
+Observatario,4129
+Moznet,4130
+Indian 1960,4131
+FD58,4132
+EST92,4133
+PSD93,4134
+Old Hawaiian,4135
+St. Lawrence Island,4136
+St. Paul Island,4137
+St. George Island,4138
+Puerto Rico,4139
+NAD83(CSRS98),4140
+Israel,4141
+Locodjo 1965,4142
+Abidjan 1987,4143
+Kalianpur 1937,4144
+Kalianpur 1962,4145
+Kalianpur 1975,4146
+Hanoi 1972,4147
+Hartebeesthoek94,4148
+CH1903,4149
+CH1903+,4150
+CHTRF95,4151
+NAD83(HARN),4152
+Rassadiran,4153
+ED50(ED77),4154
+Dabola 1981,4155
+S-JTSK,4156
+Mount Dillon,4157
+Naparima 1955,4158
+ELD79,4159
+Chos Malal 1914,4160
+Pampa del Castillo,4161
+Korean 1985,4162
+Yemen NGN96,4163
+South Yemen,4164
+Bissau,4165
+Korean 1995,4166
+GCS_NZGD_2000,4167
+Accra,4168
+American Samoa 1962,4169
+SIRGAS 1995,4170
+RGF93,4171
+POSGAR,4172
+IRENET95,4173
+Sierra Leone 1924,4174
+Sierra Leone 1968,4175
+Australian Antarctic,4176
+Pulkovo 1942(83),4178
+Pulkovo 1942(58),4179
+EST97,4180
+Luxembourg 1930,4181
+Azores Occidental 1939,4182
+Azores Central 1948,4183
+Azores Oriental 1940,4184
+Madeira 1936,4185
+OSNI 1952,4188
+REGVEN,4189
+POSGAR 98,4190
+Albanian 1987,4191
+Douala 1948,4192
+Manoca 1962,4193
+Qornoq 1927,4194
+Scoresbysund 1952,4195
+Ammassalik 1958,4196
+Garoua,4197
+Kousseri,4198
+Egypt 1930,4199
+Pulkovo 1995,4200
+Adindan,4201
+AGD66,4202
+AGD84,4203
+Ain el Abd,4204
+Afgooye,4205
+Agadez,4206
+Lisbon,4207
+Aratu,4208
+Arc 1950,4209
+Arc 1960,4210
+Batavia,4211
+Barbados 1938,4212
+Beduaram,4213
+Beijing 1954,4214
+Belge 1950,4215
+Bermuda 1957,4216
+Bogota 1975,4218
+Bukit Rimpah,4219
+Camacupa,4220
+Campo Inchauspe,4221
+Cape,4222
+Carthage,4223
+Chua,4224
+Corrego Alegre 1970-72,4225
+Cote d'Ivoire,4226
+Deir ez Zor,4227
+Douala,4228
+Egypt 1907,4229
+ED50,4230
+ED87,4231
+Fahud,4232
+Gandajika 1970,4233
+Garoua,4234
+Guyane Francaise,4235
+Hu Tzu Shan 1950,4236
+HD72,4237
+ID74,4238
+Indian 1954,4239
+Indian 1975,4240
+Jamaica 1875,4241
+JAD69,4242
+Kalianpur 1880,4243
+Kandawala,4244
+Kertau 1968,4245
+KOC,4246
+La Canoa,4247
+PSAD56,4248
+Lake,4249
+Leigon,4250
+Liberia 1964,4251
+Lome,4252
+Luzon 1911,4253
+Hito XVIII 1963,4254
+Herat North,4255
+Mahe 1971,4256
+Makassar,4257
+ETRS89,4258
+Malongo 1987,4259
+Manoca,4260
+Merchich,4261
+Massawa,4262
+Minna,4263
+Mhast,4264
+Monte Mario,4265
+M'poraloko,4266
+GCS_North_American_1927,4267
+NAD27 Michigan,4268
+GCS_North_American_1983,4269
+Nahrwan 1967,4270
+Naparima 1972,4271
+GCS_New_Zealand_1949,4272
+NGO 1948,4273
+Datum 73,4274
+NTF,4275
+NSWC 9Z-2,4276
+OSGB 1936,4277
+OSGB70,4278
+OS(SN)80,4279
+Padang,4280
+Palestine 1923,4281
+Pointe Noire,4282
+GDA94,4283
+Pulkovo 1942,4284
+Qatar 1974,4285
+Qatar 1948,4286
+Qornoq,4287
+Loma Quintana,4288
+Amersfoort,4289
+SAD69,4291
+Sapper Hill 1943,4292
+Schwarzeck,4293
+Segora,4294
+Serindung,4295
+Sudan,4296
+Tananarive,4297
+Timbalai 1948,4298
+TM65,4299
+TM75,4300
+Tokyo,4301
+Trinidad 1903,4302
+TC(1948),4303
+Voirol 1875,4304
+Bern 1938,4306
+Nord Sahara 1959,4307
+RT38,4308
+Yacare,4309
+Yoff,4310
+Zanderij,4311
+MGI,4312
+Belge 1972,4313
+DHDN,4314
+Conakry 1905,4315
+Dealul Piscului 1930,4316
+Dealul Piscului 1970,4317
+NGN,4318
+KUDAMS,4319
+WGS 72,4322
+WGS 72BE,4324
+GCS_WGS_1984,4326
+RGSPM06,4463
+RGM04,4470
+Cadastre 1997,4475
+Mexican Datum of 1993,4483
+China Geodetic Coordinate System 2000,4490
+New Beijing,4555
+RRAF 1991,4558
+Anguilla 1957,4600
+Antigua 1943,4601
+Dominica 1945,4602
+Grenada 1953,4603
+Montserrat 1958,4604
+St. Kitts 1955,4605
+St. Lucia 1955,4606
+St. Vincent 1945,4607
+NAD27(76),4608
+NAD27(CGQ77),4609
+Xian 1980,4610
+Hong Kong 1980,4611
+JGD2000,4612
+Segara,4613
+QND95,4614
+Porto Santo,4615
+Selvagem Grande,4616
+NAD83(CSRS),4617
+SAD69,4618
+SWEREF99,4619
+Point 58,4620
+Fort Marigot,4621
+Guadeloupe 1948,4622
+CSG67,4623
+RGFG95,4624
+Martinique 1938,4625
+Reunion 1947,4626
+RGR92,4627
+Tahiti 52,4628
+Tahaa 54,4629
+IGN72 Nuku Hiva,4630
+K0 1949,4631
+Combani 1950,4632
+IGN56 Lifou,4633
+IGN72 Grand Terre,4634
+ST87 Ouvea,4635
+Petrels 1972,4636
+Perroud 1950,4637
+Saint Pierre et Miquelon 1950,4638
+MOP78,4639
+RRAF 1991,4640
+IGN53 Mare,4641
+ST84 Ile des Pins,4642
+ST71 Belep,4643
+NEA74 Noumea,4644
+RGNC 1991,4645
+Grand Comoros,4646
+Reykjavik 1900,4657
+Hjorsey 1955,4658
+ISN93,4659
+Helle 1954,4660
+LKS92,4661
+IGN72 Grande Terre,4662
+Porto Santo 1995,4663
+Azores Oriental 1995,4664
+Azores Central 1995,4665
+Lisbon 1890,4666
+IKBD-92,4667
+ED79,4668
+LKS94,4669
+IGM95,4670
+Voirol 1879,4671
+Chatham Islands 1971,4672
+Chatham Islands 1979,4673
+SIRGAS 2000,4674
+Guam 1963,4675
+Vientiane 1982,4676
+Lao 1993,4677
+Lao 1997,4678
+Jouik 1961,4679
+Nouakchott 1965,4680
+Mauritania 1999,4681
+Gulshan 303,4682
+PRS92,4683
+Gan 1970,4684
+Gandajika,4685
+MAGNA-SIRGAS,4686
+RGPF,4687
+Fatu Iva 72,4688
+IGN63 Hiva Oa,4689
+Tahiti 79,4690
+Moorea 87,4691
+Maupiti 83,4692
+Nakhl-e Ghanem,4693
+POSGAR 94,4694
+Katanga 1955,4695
+Kasai 1953,4696
+IGC 1962 6th Parallel South,4697
+IGN 1962 Kerguelen,4698
+Le Pouce 1934,4699
+IGN Astro 1960,4700
+IGCB 1955,4701
+Mauritania 1999,4702
+Mhast 1951,4703
+Mhast (onshore),4704
+Mhast (offshore),4705
+Egypt Gulf of Suez S-650 TL,4706
+Tern Island 1961,4707
+Cocos Islands 1965,4708
+Iwo Jima 1945,4709
+St. Helena 1971,4710
+Marcus Island 1952,4711
+Ascension Island 1958,4712
+Ayabelle Lighthouse,4713
+Bellevue,4714
+Camp Area Astro,4715
+Phoenix Islands 1966,4716
+Cape Canaveral,4717
+Solomon 1968,4718
+Easter Island 1967,4719
+Fiji 1986,4720
+Fiji 1956,4721
+South Georgia 1968,4722
+Grand Cayman 1959,4723
+Diego Garcia 1969,4724
+Johnston Island 1961,4725
+Little Cayman 1961,4726
+Midway 1961,4727
+Pico de las Nieves 1984,4728
+Pitcairn 1967,4729
+Santo 1965,4730
+Viti Levu 1916,4731
+Marshall Islands 1960,4732
+Wake Island 1952,4733
+Tristan 1968,4734
+Kusaie 1951,4735
+Deception Island,4736
+Korea 2000,4737
+Hong Kong 1963,4738
+Hong Kong 1963(67),4739
+PZ-90,4740
+FD54,4741
+GDM2000,4742
+Karbala 1979,4743
+Nahrwan 1934,4744
+RD/83,4745
+PD/83,4746
+GR96,4747
+Vanua Levu 1915,4748
+RGNC91-93,4749
+ST87 Ouvea,4750
+Kertau (RSO),4751
+Viti Levu 1912,4752
+fk89,4753
+LGD2006,4754
+DGN95,4755
+VN-2000,4756
+SVY21,4757
+JAD2001,4758
+NAD83(NSRS2007),4759
+WGS 66,4760
+HTRS96,4761
+BDA2000,4762
+Pitcairn 2006,4763
+RSRGD2000,4764
+Slovenia 1996,4765
+Bern 1898 (Bern),4801
+Bogota 1975 (Bogota),4802
+Lisbon (Lisbon),4803
+Makassar (Jakarta),4804
+MGI (Ferro),4805
+Monte Mario (Rome),4806
+NTF (Paris),4807
+Padang (Jakarta),4808
+Belge 1950 (Brussels),4809
+Tananarive (Paris),4810
+Voirol 1875 (Paris),4811
+Batavia (Jakarta),4813
+RT38 (Stockholm),4814
+Greek (Athens),4815
+Carthage (Paris),4816
+NGO 1948 (Oslo),4817
+S-JTSK (Ferro),4818
+Nord Sahara 1959 (Paris),4819
+Segara (Jakarta),4820
+Voirol 1879 (Paris),4821
+Sao Tome,4823
+Principe,4824
+ATF (Paris),4901
+NDG (Paris),4902
+Madrid 1870 (Madrid),4903
+Lisbon 1890 (Lisbon),4904
+PTRA08,5013
+Tokyo 1892,5132
+S-JTSK/05,5228
+S-JTSK/05 (Ferro),5229
+SLD99,5233
+GDBD2009,5246
+TUREF,5252
+DRUKREF 03,5264
+ISN2004,5324
+POSGAR 2007,5340
+MARGEN,5354
+SIRGAS-Chile,5360
+CR05,5365
+MACARIO SOLIS,5371
+Peru96,5373
+SIRGAS-ROU98,5381
+SIRGAS_ES2007.8,5393
+Ocotepeque 1935,5451
+Sibun Gorge 1922,5464
+Panama-Colon 1911,5467
+RGAF09,5489
+GCS_North_American_1983,5498
+NAD83(HARN),5499
+NAD83(NSRS2007),5500
+Corrego Alegre 1961,5524
+SAD69(96),5527
+PNG94,5546
+Ukraine 2000,5561
+FEH2010,5593
+SWEREF99,5628
+DB_REF,5681
+NTF (Paris),7400
+RT90,7404
+GCS_North_American_1927,7406
+Amersfoort,7408
+ETRS89,7409
+PSD93,7410
+Tokyo,7414
+ETRS89,7423

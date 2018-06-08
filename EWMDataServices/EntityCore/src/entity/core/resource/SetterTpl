@@ -1,0 +1,15 @@
+
+  /**
+   * @param [PROPNAME] the [PROPNAME] to set
+   */
+  public E set[METHODNAME]([TYPENAME] [PROPNAME]) {
+    return this.set("[PROPNAME]",[PROPNAME]);
+  }
+
+  /**
+   * @param [PROPNAME] the [PROPNAME] to set
+   */
+  public E set[METHODNAME](ConditionOperator op, [TYPENAME] [PROPNAME]) {
+    return this.addFilter(ConditionFilter.createInstance("[PROPNAME]",op,[PROPNAME]));
+  }
+

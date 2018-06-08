@@ -1,0 +1,8 @@
+
+  /**
+   * @return the [PROPNAME]
+   */
+  public [TYPENAME] get[METHODNAME]() {
+    return this.[PROPNAME];
+  }
+

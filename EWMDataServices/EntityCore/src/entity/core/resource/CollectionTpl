@@ -1,0 +1,25 @@
+package [PACKAGENAME].collection;
+
+import entity.core.EntityCollection;
+import [PACKAGENAME].[ENTITYCLASS];
+
+/**
+ *
+ * @author clay
+ */
+public class [ENTITYCLASS]Collection extends EntityCollection<[ENTITYCLASS]> {
+  
+  //<editor-fold defaultstate="expanded" desc="Private Properties">
+
+  @Override
+  protected void finalize() throws Throwable {
+    super.finalize(); //To change body of generated methods, choose Tools | Templates.
+  }
+  //</editor-fold>
+  
+  //<editor-fold defaultstate="collapsed" desc="Constructor(s)">
+  public [ENTITYCLASS]Collection() {
+    super([ENTITYCLASS].class);
+  }
+  //</editor-fold>
+}
