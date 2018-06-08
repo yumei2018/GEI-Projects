@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="DWREPEJBPU" transaction-type="RESOURCE_LOCAL">
+    <!--    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <jta-data-source>DWREPEJBPU</jta-data-source>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="eclipselink.ddl-generation" value="create-tables"/>
+    </properties>-->
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>
+    <class>com.gei.entities.DistrictLookup</class>
+    <class>com.gei.entities.EpApplication</class>
+    <class>com.gei.entities.EpCategory</class>
+    <class>com.gei.entities.EpComments</class>
+    <class>com.gei.entities.EpContact</class>
+    <class>com.gei.entities.EpContactTelephone</class>
+    <class>com.gei.entities.EpContactType</class>
+    <class>com.gei.entities.EpContactTypeLookup</class>
+    <class>com.gei.entities.EpCoordinate</class>
+    <class>com.gei.entities.EpLocation</class>
+    <class>com.gei.entities.EpUsers</class>
+    <class>com.gei.entities.FiContact</class>
+    <class>com.gei.entities.FiContactPhone</class>
+    <class>com.gei.entities.LiPermitComments</class>
+    <class>com.gei.entities.LiPermitContacts</class>
+    <class>com.gei.entities.LiPermitDocs</class>
+    <class>com.gei.entities.LiPermitStatus</class>
+    <class>com.gei.entities.LiUsers</class>
+    <class>com.gei.entities.FiContactTypeLookup</class>
+    <class>com.gei.entities.LiStatusLookup</class>
+    <class>com.gei.entities.FiAgency</class>
+    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    <shared-cache-mode>NONE</shared-cache-mode>
+    <properties>
+      <property name="hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect"/>
+      <property name="hibernate.connection.driver_class" value="oracle.jdbc.OracleDriver"/>
+      <property name="hibernate.show_sql" value="false"/>
+      <property name="hibernate.connection.username" value="dwr_ep"/>
+      <property name="hibernate.connection.password" value="ep#95670"/>
+      <!--      <property name="hibernate.connection.url" value="jdbc:oracle:thin:@172.21.201.165:1521:orcl"/>-->
+      <property name="hibernate.connection.url" value="jdbc:oracle:thin:@localhost:1521:orcl"/>
+      <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
+    </properties>
+  </persistence-unit>
+</persistence>
